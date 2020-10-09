@@ -311,27 +311,7 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
     </section>
   </div>
 
-  <style>
 
-@media screen and (max-width: 1000px)
-{
-  .countdown-responsive-pc
-  {
-    visibility: hidden;
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1000px)
-{
-  .countdown-responsive-mobile
-  {
-    visibility: hidden;
-    display: none;
-  }
-}
-
-</style>
     <!-- Countdown Section End -->
 
     <div class="countdown-responsive-mobile">
@@ -390,6 +370,7 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
 
 
     <!-- Footer Section Begin -->
+    <div class="pc-footer">
     <footer class="footer spad set-bg" data-setbg="img/footer-bg.png">
         <div class="container">
             <div class="row">
@@ -421,15 +402,7 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6">
-                    <!-- <div class="footer__newslatter">
-                        <h4>Stay With me</h4>
-                        <form action="#">
-                            <input type="text" placeholder="Email">
-                            <button type="submit"><i class="fa fa-send-o"></i></button>
-                        </form>
-                    </div> -->
-                </div>
+
             </div>
 
 			<div class="footer__copyright__text">
@@ -439,6 +412,54 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
 
         </div>
     </footer>
+  </div>
+
+
+
+
+    <div class="mobile-footer">
+    <footer class="footer" data-setbg="img/footer-bg.png">
+        <div class="container">
+
+
+        </div>
+    </footer>
+  </div>
+
+
+    <style>
+
+
+  @media screen and (max-width: 1000px)
+  {
+    .countdown-responsive-pc
+    {
+      visibility: hidden;
+      display: none;
+    }
+
+    .pc-footer
+    {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1000px)
+  {
+    .countdown-responsive-mobile
+    {
+      visibility: hidden;
+      display: none;
+    }
+    .mobile-footer
+    {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+  </style>
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
@@ -457,9 +478,8 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
     <script src="js/jplayerInit.js"></script>
 
 
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147469907-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -468,7 +488,6 @@ Then, in the middle of August, Victoria started an Eurovision 2021 camp in the t
 
       gtag('config', 'UA-147469907-3');
     </script>
-
 
 
 
